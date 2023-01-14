@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403D90B293321430014FEE9 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */; };
+		0403D90D2933216F0014FEE9 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */; };
+		0403D90F293321820014FEE9 /* GettingStarted2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */; };
+		0403D911293321990014FEE9 /* GettingStartedCompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */; };
+		0403D9132933220A0014FEE9 /* DiagnosticTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */; };
+		0403D917293322430014FEE9 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D916293322430014FEE9 /* ProfileTabViewController.swift */; };
+		0403D9192933224E0014FEE9 /* EmergencyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */; };
+		0403D921293340C80014FEE9 /* EmpHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */; };
+		0403D927293347140014FEE9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D926293347140014FEE9 /* TabBarController.swift */; };
+		0403D92929334A5E0014FEE9 /* HistoryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */; };
+		244399692932C3DD00E1E46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244399682932C3DD00E1E46C /* AppDelegate.swift */; };
+		2443996B2932C3DD00E1E46C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443996A2932C3DD00E1E46C /* SceneDelegate.swift */; };
+		2443996D2932C3DD00E1E46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443996C2932C3DD00E1E46C /* ViewController.swift */; };
+		244399702932C3DE00E1E46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443996E2932C3DE00E1E46C /* Main.storyboard */; };
+		244399732932C3DE00E1E46C /* TriageMed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 244399712932C3DE00E1E46C /* TriageMed.xcdatamodeld */; };
+		244399752932C3F000E1E46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244399742932C3F000E1E46C /* Assets.xcassets */; };
+		244399782932C3F000E1E46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244399762932C3F000E1E46C /* LaunchScreen.storyboard */; };
+		244399832932C3F100E1E46C /* TriageMedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244399822932C3F100E1E46C /* TriageMedTests.swift */; };
+		2443998D2932C3F200E1E46C /* TriageMedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443998C2932C3F200E1E46C /* TriageMedUITests.swift */; };
+		2443998F2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443998E2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift */; };
+		24BDDF61294A5DC4001D9C5F /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDDF60294A5DC4001D9C5F /* HistoryCollectionViewCell.swift */; };
+		5B8D9505294AB08300809C66 /* DiagnosticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D9504294AB08300809C66 /* DiagnosticTableViewCell.swift */; };
+		C20545E52939902A00368BB8 /* Diagnostic2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20545E42939902A00368BB8 /* Diagnostic2ViewController.swift */; };
+		C20545E72939903A00368BB8 /* Diagnostic3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20545E62939903A00368BB8 /* Diagnostic3ViewController.swift */; };
+		C20A4D0B294AAAB000DC6643 /* AboutPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A4D0A294AAAB000DC6643 /* AboutPopUpViewController.swift */; };
+		C252062F294A427F0012E1E2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252062E294A427F0012E1E2 /* AboutViewController.swift */; };
+		C2AEEAE82937F4CE001B5697 /* DiagnosticPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2443997F2932C3F100E1E46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2443995D2932C3DD00E1E46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244399642932C3DD00E1E46C;
+			remoteInfo = TriageMed;
+		};
+		244399892932C3F200E1E46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2443995D2932C3DD00E1E46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244399642932C3DD00E1E46C;
+			remoteInfo = TriageMed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted2ViewController.swift; sourceTree = "<group>"; };
+		0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedCompletionViewController.swift; sourceTree = "<group>"; };
+		0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticTabViewController.swift; sourceTree = "<group>"; };
+		0403D916293322430014FEE9 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
+		0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTabViewController.swift; sourceTree = "<group>"; };
+		0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpHistoryViewController.swift; sourceTree = "<group>"; };
+		0403D926293347140014FEE9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTabViewController.swift; sourceTree = "<group>"; };
+		244399652932C3DD00E1E46C /* TriageMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriageMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244399682932C3DD00E1E46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2443996A2932C3DD00E1E46C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2443996C2932C3DD00E1E46C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2443996F2932C3DE00E1E46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244399722932C3DE00E1E46C /* TriageMed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriageMed.xcdatamodel; sourceTree = "<group>"; };
+		244399742932C3F000E1E46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244399772932C3F000E1E46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244399792932C3F000E1E46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2443997E2932C3F100E1E46C /* TriageMedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriageMedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244399822932C3F100E1E46C /* TriageMedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageMedTests.swift; sourceTree = "<group>"; };
+		244399882932C3F200E1E46C /* TriageMedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriageMedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443998C2932C3F200E1E46C /* TriageMedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageMedUITests.swift; sourceTree = "<group>"; };
+		2443998E2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageMedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24BDDF60294A5DC4001D9C5F /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B8D9504294AB08300809C66 /* DiagnosticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticTableViewCell.swift; sourceTree = "<group>"; };
+		C20545E42939902A00368BB8 /* Diagnostic2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic2ViewController.swift; sourceTree = "<group>"; };
+		C20545E62939903A00368BB8 /* Diagnostic3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic3ViewController.swift; sourceTree = "<group>"; };
+		C20A4D0A294AAAB000DC6643 /* AboutPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPopUpViewController.swift; sourceTree = "<group>"; };
+		C252062E294A427F0012E1E2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticPopUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244399622932C3DD00E1E46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2443997B2932C3F100E1E46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244399852932C3F200E1E46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2443995C2932C3DD00E1E46C = {
+			isa = PBXGroup;
+			children = (
+				244399672932C3DD00E1E46C /* TriageMed */,
+				244399812932C3F100E1E46C /* TriageMedTests */,
+				2443998B2932C3F200E1E46C /* TriageMedUITests */,
+				244399662932C3DD00E1E46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244399662932C3DD00E1E46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244399652932C3DD00E1E46C /* TriageMed.app */,
+				2443997E2932C3F100E1E46C /* TriageMedTests.xctest */,
+				244399882932C3F200E1E46C /* TriageMedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244399672932C3DD00E1E46C /* TriageMed */ = {
+			isa = PBXGroup;
+			children = (
+				244399682932C3DD00E1E46C /* AppDelegate.swift */,
+				2443996A2932C3DD00E1E46C /* SceneDelegate.swift */,
+				2443996C2932C3DD00E1E46C /* ViewController.swift */,
+				2443996E2932C3DE00E1E46C /* Main.storyboard */,
+				0403D926293347140014FEE9 /* TabBarController.swift */,
+				0403D920293340C80014FEE9 /* EmpHistoryViewController.swift */,
+				C20A4D0A294AAAB000DC6643 /* AboutPopUpViewController.swift */,
+				C252062E294A427F0012E1E2 /* AboutViewController.swift */,
+				0403D916293322430014FEE9 /* ProfileTabViewController.swift */,
+				0403D9182933224E0014FEE9 /* EmergencyTabViewController.swift */,
+				C2AEEAE72937F4CE001B5697 /* DiagnosticPopUpViewController.swift */,
+				0403D9122933220A0014FEE9 /* DiagnosticTabViewController.swift */,
+				C20545E42939902A00368BB8 /* Diagnostic2ViewController.swift */,
+				5B8D9504294AB08300809C66 /* DiagnosticTableViewCell.swift */,
+				C20545E62939903A00368BB8 /* Diagnostic3ViewController.swift */,
+				0403D90A293321430014FEE9 /* LaunchScreenViewController.swift */,
+				0403D90C2933216F0014FEE9 /* GettingStartedViewController.swift */,
+				0403D90E293321820014FEE9 /* GettingStarted2ViewController.swift */,
+				0403D910293321990014FEE9 /* GettingStartedCompletionViewController.swift */,
+				0403D92829334A5E0014FEE9 /* HistoryTabViewController.swift */,
+				244399742932C3F000E1E46C /* Assets.xcassets */,
+				244399762932C3F000E1E46C /* LaunchScreen.storyboard */,
+				244399792932C3F000E1E46C /* Info.plist */,
+				244399712932C3DE00E1E46C /* TriageMed.xcdatamodeld */,
+				24BDDF60294A5DC4001D9C5F /* HistoryCollectionViewCell.swift */,
+			);
+			path = TriageMed;
+			sourceTree = "<group>";
+		};
+		244399812932C3F100E1E46C /* TriageMedTests */ = {
+			isa = PBXGroup;
+			children = (
+				244399822932C3F100E1E46C /* TriageMedTests.swift */,
+			);
+			path = TriageMedTests;
+			sourceTree = "<group>";
+		};
+		2443998B2932C3F200E1E46C /* TriageMedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2443998C2932C3F200E1E46C /* TriageMedUITests.swift */,
+				2443998E2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift */,
+			);
+			path = TriageMedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244399642932C3DD00E1E46C /* TriageMed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244399922932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMed" */;
+			buildPhases = (
+				244399612932C3DD00E1E46C /* Sources */,
+				244399622932C3DD00E1E46C /* Frameworks */,
+				244399632932C3DD00E1E46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriageMed;
+			productName = TriageMed;
+			productReference = 244399652932C3DD00E1E46C /* TriageMed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2443997D2932C3F100E1E46C /* TriageMedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244399952932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMedTests" */;
+			buildPhases = (
+				2443997A2932C3F100E1E46C /* Sources */,
+				2443997B2932C3F100E1E46C /* Frameworks */,
+				2443997C2932C3F100E1E46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244399802932C3F100E1E46C /* PBXTargetDependency */,
+			);
+			name = TriageMedTests;
+			productName = TriageMedTests;
+			productReference = 2443997E2932C3F100E1E46C /* TriageMedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244399872932C3F200E1E46C /* TriageMedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244399982932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMedUITests" */;
+			buildPhases = (
+				244399842932C3F200E1E46C /* Sources */,
+				244399852932C3F200E1E46C /* Frameworks */,
+				244399862932C3F200E1E46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2443998A2932C3F200E1E46C /* PBXTargetDependency */,
+			);
+			name = TriageMedUITests;
+			productName = TriageMedUITests;
+			productReference = 244399882932C3F200E1E46C /* TriageMedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2443995D2932C3DD00E1E46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					244399642932C3DD00E1E46C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2443997D2932C3F100E1E46C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 244399642932C3DD00E1E46C;
+					};
+					244399872932C3F200E1E46C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 244399642932C3DD00E1E46C;
+					};
+				};
+			};
+			buildConfigurationList = 244399602932C3DD00E1E46C /* Build configuration list for PBXProject "TriageMed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2443995C2932C3DD00E1E46C;
+			productRefGroup = 244399662932C3DD00E1E46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244399642932C3DD00E1E46C /* TriageMed */,
+				2443997D2932C3F100E1E46C /* TriageMedTests */,
+				244399872932C3F200E1E46C /* TriageMedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244399632932C3DD00E1E46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244399782932C3F000E1E46C /* LaunchScreen.storyboard in Resources */,
+				244399752932C3F000E1E46C /* Assets.xcassets in Resources */,
+				244399702932C3DE00E1E46C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2443997C2932C3F100E1E46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244399862932C3F200E1E46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244399612932C3DD00E1E46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403D9192933224E0014FEE9 /* EmergencyTabViewController.swift in Sources */,
+				244399732932C3DE00E1E46C /* TriageMed.xcdatamodeld in Sources */,
+				0403D92929334A5E0014FEE9 /* HistoryTabViewController.swift in Sources */,
+				24BDDF61294A5DC4001D9C5F /* HistoryCollectionViewCell.swift in Sources */,
+				0403D911293321990014FEE9 /* GettingStartedCompletionViewController.swift in Sources */,
+				0403D921293340C80014FEE9 /* EmpHistoryViewController.swift in Sources */,
+				5B8D9505294AB08300809C66 /* DiagnosticTableViewCell.swift in Sources */,
+				2443996D2932C3DD00E1E46C /* ViewController.swift in Sources */,
+				C2AEEAE82937F4CE001B5697 /* DiagnosticPopUpViewController.swift in Sources */,
+				C20545E72939903A00368BB8 /* Diagnostic3ViewController.swift in Sources */,
+				C252062F294A427F0012E1E2 /* AboutViewController.swift in Sources */,
+				244399692932C3DD00E1E46C /* AppDelegate.swift in Sources */,
+				C20545E52939902A00368BB8 /* Diagnostic2ViewController.swift in Sources */,
+				0403D90D2933216F0014FEE9 /* GettingStartedViewController.swift in Sources */,
+				C20A4D0B294AAAB000DC6643 /* AboutPopUpViewController.swift in Sources */,
+				0403D90B293321430014FEE9 /* LaunchScreenViewController.swift in Sources */,
+				0403D9132933220A0014FEE9 /* DiagnosticTabViewController.swift in Sources */,
+				0403D917293322430014FEE9 /* ProfileTabViewController.swift in Sources */,
+				0403D927293347140014FEE9 /* TabBarController.swift in Sources */,
+				2443996B2932C3DD00E1E46C /* SceneDelegate.swift in Sources */,
+				0403D90F293321820014FEE9 /* GettingStarted2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2443997A2932C3F100E1E46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244399832932C3F100E1E46C /* TriageMedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244399842932C3F200E1E46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2443998D2932C3F200E1E46C /* TriageMedUITests.swift in Sources */,
+				2443998F2932C3F200E1E46C /* TriageMedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244399802932C3F100E1E46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244399642932C3DD00E1E46C /* TriageMed */;
+			targetProxy = 2443997F2932C3F100E1E46C /* PBXContainerItemProxy */;
+		};
+		2443998A2932C3F200E1E46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244399642932C3DD00E1E46C /* TriageMed */;
+			targetProxy = 244399892932C3F200E1E46C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2443996E2932C3DE00E1E46C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2443996F2932C3DE00E1E46C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244399762932C3F000E1E46C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244399772932C3F000E1E46C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244399902932C3F200E1E46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		244399912932C3F200E1E46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244399932932C3F200E1E46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = VDQS4882Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriageMed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		244399942932C3F200E1E46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = VDQS4882Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriageMed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		244399962932C3F200E1E46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U28CM5B8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriageMed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriageMed";
+			};
+			name = Debug;
+		};
+		244399972932C3F200E1E46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U28CM5B8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriageMed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriageMed";
+			};
+			name = Release;
+		};
+		244399992932C3F200E1E46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U28CM5B8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriageMed;
+			};
+			name = Debug;
+		};
+		2443999A2932C3F200E1E46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U28CM5B8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antivm.traigemedios.TriageMedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriageMed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244399602932C3DD00E1E46C /* Build configuration list for PBXProject "TriageMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244399902932C3F200E1E46C /* Debug */,
+				244399912932C3F200E1E46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244399922932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244399932932C3F200E1E46C /* Debug */,
+				244399942932C3F200E1E46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244399952932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244399962932C3F200E1E46C /* Debug */,
+				244399972932C3F200E1E46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244399982932C3F200E1E46C /* Build configuration list for PBXNativeTarget "TriageMedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244399992932C3F200E1E46C /* Debug */,
+				2443999A2932C3F200E1E46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		244399712932C3DE00E1E46C /* TriageMed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				244399722932C3DE00E1E46C /* TriageMed.xcdatamodel */,
+			);
+			currentVersion = 244399722932C3DE00E1E46C /* TriageMed.xcdatamodel */;
+			path = TriageMed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2443995D2932C3DD00E1E46C /* Project object */;
+}
